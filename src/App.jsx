@@ -22,7 +22,7 @@ import ExpensesPage, {
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/Coin-Tracker/",
     element: <Main />,
     loader: mainLoader,
     errorElement: <Error />,
