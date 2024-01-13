@@ -334,7 +334,7 @@ nav a {
 
 @media screen and (max-width: 525px) {
   nav a span {
-    display: none;
+    margin-right: var(--space-xs);
   }
 }
 
