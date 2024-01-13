@@ -28,7 +28,7 @@ const ExpenseItem = ({ expense, showBudget }) => {
       {showBudget && (
         <td>
           <Link
-            to={`/budget/${budget.id}`}
+            to={`/Coin-Tracker/budget/${budget.id}`}
             style={{
               "--accent": budget.color,
             }}

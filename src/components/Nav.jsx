@@ -12,7 +12,7 @@ const Nav = ({ userName }) => {
   return (
     <nav>
       <NavLink
-        to="/"
+        to="/Coin-Tracker/"
         aria-label="Go to home"
       >
         <img className="logo" src={logo} alt="" height={30} />

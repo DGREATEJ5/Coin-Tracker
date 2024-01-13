@@ -31,5 +31,5 @@ export function deleteBudget({ params }) {
   } catch (e) {
     throw new Error("There was a problem deleting your budget.");
   }
-  return redirect("/");
+  return redirect("/Coin-Tracker/");
 }
